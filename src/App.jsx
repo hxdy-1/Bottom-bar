@@ -1,14 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import BottomBar from "./components/BottomBar/BottomBar";
+import BottomModal from "./components/BottomModal/BottomModal";
 
 function App() {
-	const [count, setCount] = useState(0);
+	const [showModal, setShowModal] = useState(false);
 
 	return (
 		<>
-			<h1>Hi</h1>
+			{!showModal && <BottomBar setShowModal={setShowModal} />}
+			{showModal && <BottomModal setShowModal={setShowModal} />}
 		</>
 	);
 }

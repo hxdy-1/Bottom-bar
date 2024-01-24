@@ -1,0 +1,84 @@
+.BottomBar {
+	background-color: rgb(40, 40, 40);
+	border-radius: 25px;
+	padding: 0.8em;
+	position: fixed;
+
+	margin: 0rem auto;
+
+	left: 22%;
+	bottom: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+
+	backdrop-filter: blur(5px);
+	opacity: 0.8;
+
+	min-width: 50rem;
+	/* border: 1px solid black; */
+}
+
+.BBimg {
+	background-image: url("https://images.prismic.io/times-two/d0beebb5-f3a3-4928-a8d0-dae6bcdc0d05_Times+Two+-+Thumbnail.png?auto=compress,format&rect=0,0,800,800&w=160&h=160");
+	padding: 2.5em;
+	border-radius: 20px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2rem;
+
+	width: 100%;
+}
+
+.title h5 {
+	font-size: 1.1rem;
+}
+
+.title p {
+	opacity: 0.9;
+	font-size: 1.1rem;
+	position: relative;
+	transition: all 200ms ease-out;
+}
+
+.title p::after {
+	position: absolute;
+	content: "View";
+
+	top: 100%;
+	left: 0%;
+
+	transition: all 200ms ease-out;
+
+	/* z-index: -2; */
+}
+
+.BottomBar:hover .title p {
+	transform: translateY(-40%);
+	opacity: 0;
+}
+
+.BottomBar:hover .title p::after {
+	top: 0%;
+	opacity: 1;
+}
+
+.BottomBar button {
+	width: 11%;
+	padding: 2.5em;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	background-color: transparent;
+}
