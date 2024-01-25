@@ -3,13 +3,21 @@ import styles from "./BottomBar.module.css";
 
 const BottomBar = ({ setShowModal }) => {
 	return (
-		<div className={styles.BottomBar}>
+		<div className={styles.BottomBar} onClick={(e) => setShowModal(true)}>
 			<div className={styles.BBimg}></div>
 			<div className={styles.title}>
 				<h5>Times Two</h5>
-				<p>Project</p>
+				<p className={styles.detail} data-hover="View">
+					<span>Project</span>
+				</p>
 			</div>
-			<button onClick={(e) => setShowModal(true)}>open</button>
+			<button>
+				<div className={styles.buttonDiv}>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</button>
 		</div>
 	);
 };
