@@ -4,7 +4,7 @@
 
 This project replicates the designs and animations of the bottom-bar of the [TimesTwo Design](https://timestwo.design/) website as part of the [Dimension-1](https://www.dimension-1.com/) internship assessment. The goal was to closely resemble the provided reference while showcasing skills in web development.
 
-[Live Project Demo](https://hady-bottom-bar.vercel.app)
+## [Live Project Demo](https://hady-bottom-bar.vercel.app)
 
 ## Features
 
