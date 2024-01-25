@@ -1,8 +1,17 @@
-# React + Vite
+# Dimension-1 Internship Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project replicates the designs and animations of the bottom-bar of the [TimesTwo Design](https://timestwo.design/) website as part of the [Dimension-1](https://www.dimension-1.com/) internship assessment. The goal was to closely resemble the provided reference while showcasing skills in web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Project Demo](https://hady-bottom-bar.vercel.app)
+
+## Features
+
+- **Close-to-Reference Implementation**: Strives to closely resemble the [TimesTwo Design](https://timestwo.design/) website.
+
+- **CSS modules**: Used CSS modules in React to scope the classes to components giving more control over them.
+
+- **Vite & React**: Developed using Vite and React for modern development.
+
+***I tried my best to make the bottom bar with animations as close the the reference as I could. Its not pixel perfect, but I hope its good enough to lend me the opportunity. Lastly I wanna thank Dimension-1 for considering my application.***
